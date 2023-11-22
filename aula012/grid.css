@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 26px;
+}
+div {
+    border: 2px solid black;
+}
+main {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 80px 50px repeat(1,380px) 50px;
+    width: 60%;
+    margin: 0px auto;
+    grid-gap: 8px;
+}
+.header-bgcolor {
+    background-color: rgb(107, 168, 15);
+}
+.menu1-bgcolor {
+    background-color: rgb(101, 110, 224);
+}
+.menu2-bgcolor{
+    background-color: rgb(3, 3, 49);
+}
+.content-bgcolor{
+    background-color: rgb(224, 131, 162);
+}
+.footer-bgcolor{
+    background-color: rgb(241, 78, 19);
+}
+.grid-aling {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

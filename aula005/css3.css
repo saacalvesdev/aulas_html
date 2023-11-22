@@ -1,0 +1,22 @@
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    background-image: url('img/fundo.png');
+}
+
+.divisao {
+    background-color: rgb(245, 243, 163);
+}
+
+.link { 
+    color: rgb(70, 16, 2);
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+
+.formatacao {
+    display: inline;
+}
+
