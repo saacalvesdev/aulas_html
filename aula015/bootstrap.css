@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grid Container */
+
+.container {
+    border: 2px solid black;
+}
+
+.row {
+    border: 2px dotted white;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    height: 100%;
+    margin: 5px;
+}
